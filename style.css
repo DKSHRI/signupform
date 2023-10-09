@@ -1,0 +1,99 @@
+
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    flex-grow: 1;
+    position: relative;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1548940740-204726a19be3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1378&q=80);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+#logo{
+    font-family: 'Skranji', cursive;
+    font-size: 55px;
+}
+#para{
+   width: 90%;
+   font-family: 'Great Vibes', cursive;
+}
+
+.right{
+    flex-grow: 1;
+    position: relative;
+    width: 40vw;
+    min-width: 345px;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1547558840-8ad6c8e662a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+   gap: 20px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+#button{
+    font-family: 'Press Start 2P', cursive;
+    margin: 5px;
+    padding: 2px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #596D48;
+}
+
+#button:hover {
+    background-color: rebeccapurple;
+    cursor: pointer;
+  }
+  
+  
+  .signupform {
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+
+  .signupform input[type="text"],
+  .signupform input[type="email"],
+  .signupform input[type="tel"],
+  .signupform input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  .signupform a {
+    color: limegreen;
+    text-decoration: none;
+  }
+  
+  .signupform a:hover {
+    text-decoration: underline;
+  }
+  
